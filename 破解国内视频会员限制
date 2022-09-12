@@ -1,0 +1,9 @@
+# 破解国内视频网站会员限制
+> 操作步骤
+> 1、需要用到的链接
+> `https://jx.xymav.com/?url=`
+> 2、找一个会员视频URL
+> `https://v.qq.com/x/cover/mzc002005pzpzyp/l0044n8xiat.html`
+> 3、将会员视频地址追加在1的链接后
+> `https://jx.xymav.com/?url=https://v.qq.com/x/cover/mzc002005pzpzyp/l0044n8xiat.html`
+> 4、回车后既会自动去进行解析，如果没解析出来可以切换一下线路
