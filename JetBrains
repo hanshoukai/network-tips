@@ -1,0 +1,34 @@
+全家桶完美破解
+
+下载破解程序
+https://url90.ctfile.com/f/38447490-652792530-afd78a?p=2587 文件访问密码：2587
+
+破解步骤：
+1) 拷贝 ja-netfilter-all 文件夹到 C:\ja-netfilter-all\ja-netfilter.jar
+
+2) 执行破解vbs脚本
+   Windows: 双击执行"scripts\install-current-user.vbs" (For current user)
+                    "scripts\install-all-users.vbs" (For all users)
+   其他系统自行加权限执行
+   
+2) 修改vmoptions文件
+  按在c盘位置如下：
+	C:\Program Files\JetBrains\IDEA\bin\idea64.exe.vmoptions
+  默认安装位置如下：
+	C:\Users\%username%\AppData\Roaming\JetBrains\IntelliJIdea2021.3\idea64.exe.vmoptions
+  以上两种选其一即可
+
+  在.vmoptions文件后追加以下三行:
+
+-javaagent:C:\ja-netfilter-all\ja-netfilter.jar=jetbrains
+--add-opens=java.base/jdk.internal.org.objectweb.asm=ALL-UNNAMED
+--add-opens=java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED
+   
+
+3) 运行JetBrains产品,选择输入激活码方式
+  Select "Activate <IDE NAME>"
+  Select "Activation Code",
+  从 "Activation Codes" 文件夹中复制出激活码并粘贴上, 点击确定即可
+
+Done!
+祝君代码撸的够亮，射的够远，飞的更高
