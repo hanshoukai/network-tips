@@ -1,14 +1,15 @@
-破解国内视频网站会员限制
+破解国内视频网站会员限制操作说明
 
 操作步骤
 
-1、需要用到的链接
-https://jx.xymav.com/?url=
+1、将本链接下载到本地
+https://github.com/hanshoukai/network-tips/blob/main/%E7%A0%B4%E8%A7%A3%E5%9B%BD%E5%86%85%E8%A7%86%E9%A2%91%E4%BC%9A%E5%91%98%E9%99%90%E5%88%B6
 
 2、找一个会员视频URL
 https://v.qq.com/x/cover/mzc002005pzpzyp/l0044n8xiat.html
 
-3、将会员视频地址追加在1的链接后
-https://jx.xymav.com/?url=https://v.qq.com/x/cover/mzc002005pzpzyp/l0044n8xiat.html
+3、打开本地保存的HTML文件，将会员视频地址填入即可
 
-4、回车后既会自动去进行解析，如果没解析出来可以切换一下线路
+4、点击解析会员视频
+
+5、回车后既会自动去进行解析，如果没解析出来可以切换一下其他下拉线路
