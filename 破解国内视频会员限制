@@ -7,7 +7,7 @@
 <body>
 <div>
     <label>
-        <input type="text" class="jiexi" name="jiexi">
+        <input type="text" class="jiexi" name="jiexi" placeholder="输入各大视频网站播放URL">
     </label>
     <label>
         <select id="group" onchange="getval(this)">
