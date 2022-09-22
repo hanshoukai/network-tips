@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div>
+    <label>
+        <input type="text" class="jiexi" name="jiexi">
+    </label>
+    <label>
+        <select id="group" onchange="getval(this)">
+            <option value="https://jx.aidouer.net/?url=">【直解】VIP万能解析原画</option>
+            <option value="https://z1.m1907.cn/?jx=">【直接搜索视频名称】vip解析影院</option>
+            <option value="https://www.yemu.xyz/?url=">【夜幕解析】</option>
+            <option value="https://api.leduotv.com/wp-api/ifr.php?vid=">【推荐】vip解析</option>
+            <option value="https://okjx.cc/?url=">【OK万能视频解析】</option>
+            <option value="https://sb.5gseo.net/?url=">【云端视频解析】</option>
+            <option value="https://svip.bljiex.cc/?url=">【BL视频解析】</option>
+            <option value="https://jx.iztyy.com/svip/?url=">【云VIP解析】</option>
+            <option value="https://jx.xmflv.com/?url=">【虾米视频解析】</option>
+            <option value="https://jx.xymav.com/?url=">【七彩vip解析】</option>
+            <option value="https://www.administratorw.com/video.php?url=">【无名解析小站】</option>
+            <option value="https://jx.618g.com/?url=">【全民解析接口】</option>
+            <option value="https://www.pangujiexi.com/pangu/?url=">【盘古解析】</option>
+            <option value="https://660e.com/?url=">【视频解析接口】</option>
+        </select>
+    </label>
+    <button>解析会员视频</button>
+</div>
+
+    <script>
+        var lianjie = document.getElementById('group')
+        function getval(){
+            var url = lianjie.options[lianjie.selectedIndex].value
+            console.log(url)
+            return url
+        }
+        var btn = document.querySelector('button')
+        btn.onclick = ()=>{
+            var jiexi = document.querySelector('input[name="jiexi"]').value
+            console.log(jiexi)
+            var url = getval()
+            open(location.href=`${url}${jiexi}`)
+        }
+    </script>
+
+<div></div>
+</body>
+</html>
