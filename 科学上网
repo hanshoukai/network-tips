@@ -1,3 +1,4 @@
+====================搭建节点=====================
 一键部署脚本：
 https://github.com/XTLS/Xray-install
 https://github.com/v2fly/fhs-install-v2ray
@@ -10,8 +11,7 @@ https://github.com/txthinking/brook
 服务端混淆插件
 https://github.com/shadowsocks/v2ray-plugin
 
-
-=========================================
+====================客户端=====================
 Windows客户端
 https://github.com/shadowsocks/shadowsocks-windows
 https://github.com/2dust/v2rayN
@@ -29,3 +29,8 @@ https://github.com/geph-official/geph4
 客户端【Mac，Windows】
 https://github.com/Fndroid/clash_for_windows_pkg
 
+====================免费节点=====================
+https://github.com/freefq/free
+https://github.com/wrfree/free
+https://github.com/aiboboxx/clashfree
+https://github.com/aiboboxx/v2rayfree
