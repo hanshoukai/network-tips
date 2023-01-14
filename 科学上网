@@ -1,3 +1,8 @@
+CF优选IP工具：https://github.com/XIU2/CloudflareSpeedTest/releases
+反代CF的IP：https://github.com/ip-scanner/cloudflare
+合并txt文件： type *.txt>>all.txt
+
+
 ====================搭建节点=====================
 一键部署脚本：
 https://github.com/XTLS/Xray-install
