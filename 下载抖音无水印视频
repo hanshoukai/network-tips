@@ -1,24 +1,2 @@
 下载抖音无水印视频
-
-操作步骤
-
-1、复制抖音分享链接出来
-5.66 DuS:/ “艾特出最像它的人”# 淡淡然掠过神秘又美丽 https://v.douyin.com/6krMgTF/ 复制此链接，打开Dou音搜索，直接观看视频！
-
-2、用浏览器打开文案中的链接地址会自动解析成另外带有一串数字的URL
-https://v.douyin.com/6krMgTF/
-
-3、复制浏览器地址中的数字
-https://www.douyin.com/video/7139815328363662626
-
-4、将一串数字写在item_ids参数后会解析出来该视频的详细信息
-https://www.iesdouyin.com/web/api/v2/aweme/iteminfo/?item_ids=7139815328363662626
-
-5、将video中的URL复制出来把playmw改成play
-路径：item_list--video--play_addr--url_list
-将
-https://aweme.snssdk.com/aweme/v1/playwm/?video_id=v0d00fg10000ccarfp3c77uasoq45f20&ratio=720p&line=0
-改
-https://aweme.snssdk.com/aweme/v1/play/?video_id=v0d00fg10000ccarfp3c77uasoq45f20&ratio=720p&line=0
-
-6、复制修改后的URL用浏览器打开即为无水印的视频
+https://www.bilibili.com/video/BV1vX4y177Bg/?vd_source=8b69e054e2f2d2f40af49553d0ed4262
